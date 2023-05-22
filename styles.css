@@ -46,7 +46,7 @@
     background-color: yellow;
 }
 .card.checked{
-    background-color: brown;
+    background-color: burlywood;
 }
 .card.clicked img,
 .card.checked img {
