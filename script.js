@@ -4,7 +4,7 @@ let secondSelection ="";
 
 const cards = document.querySelectorAll(".cards .card");
 cards.forEach((card) => {
-    card.addEventListener("click",() => {
+    card.addEventListener("click",() =>{
     card.classList.add("clicked");
    if(counter === 0) {
     firstSelection=
