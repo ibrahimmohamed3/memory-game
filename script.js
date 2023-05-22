@@ -30,8 +30,8 @@ cards.forEach((card) => {
     setTimeout(() => {
         incorrectCards[0].classList.remove ("shake");
         incorrectCards[0].classList.remove ("cliked");
-        incorrectCards[1].classList.remove("shake");
-        incorrectCards[1].classList.remove("cliked");
+        incorrectCards[1].classList.remove ("shake");
+        incorrectCards[1].classList.remove ("cliked");
     }, 800);
         
     
