@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
-    background-color:blue;
+    background-color:aqua;
     height: 700px;
     padding: 10px;
     
@@ -31,7 +31,7 @@
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
-    transition: all ease;
+    transition: 0.3s all ease;
     
 }
 .card:hover {
@@ -40,14 +40,19 @@
 .card img{
     width: 80%;
     min-height: 60px;
-    opacity: 1;
+    opacity: 0;
 }
 .card.clicked{
     background-color: blue;
 }
 .card.checked{
-    background-color: green;
+    background-color: brown;
 }
-.card.clicked img {
+.card.clicked img,
+.card.checked img {
     opacity: 1;
+}
+.card.shake{
+    background-color: aquamarine;
+    animation: 0.5s;
 }
