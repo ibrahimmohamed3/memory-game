@@ -17,6 +17,6 @@ game.<p>
 ## Technology Used
 * HTML- wich was used to build the structure of the pages.
 * CSS - which was used to style the pages
-* Java Script - it was used to add functionality to the web pages.
+* Java Script - It was used to add functionality to the web pages.
 ## Authors info
 Email - ibra39167271@gmail.com
