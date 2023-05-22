@@ -12,7 +12,7 @@
 
 ## Description
 <p>This is a website that shows my understandment in java script by coming up with this matching
-game<p>
+game.<p>
 
 ## Technology Used
 * HTML- wich was used to build the structure of the pages.
