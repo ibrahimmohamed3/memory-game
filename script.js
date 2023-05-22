@@ -27,7 +27,7 @@ cards.forEach((card) => {
     const incorrectCards = document.querySelectorAll(".card.clicked");
     incorrectCards[0].classList.add("shake");
     incorrectCards[1].classList.add("shake");
-    setTimeout(() => {
+    setTimeout(() =>{
         incorrectCards[0].classList.remove ("shake");
         incorrectCards[0].classList.remove ("cliked");
         incorrectCards[1].classList.remove ("shake");
